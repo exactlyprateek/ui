@@ -13,28 +13,28 @@ import {
 	Button,
 	Image,
 	useDisclosure,
-	useColorModeValue,
+	// useColorModeValue,
 	Stack,
 	Text
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon, ArrowBackIcon } from '@chakra-ui/icons';
 
-const Links = [ 'Dashboard', 'Projects', 'Team' ];
+// const Links = [ 'Dashboard', 'Projects', 'Team' ];
 
-const CNavLink = ({ children }) => (
-	<Link
-		px={2}
-		py={1}
-		rounded={'md'}
-		_hover={{
-			textDecoration: 'none',
-			bg: useColorModeValue('gray.200', 'gray.700')
-		}}
-		href={'#'}
-	>
-		{children}
-	</Link>
-);
+// const CNavLink = ({ children }) => (
+// 	<Link
+// 		px={2}
+// 		py={1}
+// 		rounded={'md'}
+// 		_hover={{
+// 			textDecoration: 'none',
+// 			bg: useColorModeValue('gray.200', 'gray.700')
+// 		}}
+// 		href={'#'}
+// 	>
+// 		{children}
+// 	</Link>
+// );
 function LoggesOut(props) {
 	return (
 		<Flex>

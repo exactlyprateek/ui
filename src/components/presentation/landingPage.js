@@ -20,10 +20,9 @@ const Lp = () => {
 					</Button>
 				</NavLink>
 			</Center>
-<Center>
-
-			<Image src={logo} className="lp-resume" alt="logo" />
-</Center>
+			<Center>
+				<Image src={logo} className="lp-resume" alt="logo" />
+			</Center>
 		</Box>
 	);
 };
